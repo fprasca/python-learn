@@ -8,3 +8,6 @@ https://plotly.com/python/styling-plotly-express
 
 # More info on GitHub API
 https://docs.github.com/en/rest
+
+# About the Hacker News API
+https://github.com/HackerNews/API
