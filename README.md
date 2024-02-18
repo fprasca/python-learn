@@ -34,3 +34,6 @@ python manage.py migrate
 
 ### Viewing the Project
 python manage.py runserver
+
+### Create the infrastructure need to build an app
+python manage.py startapp [appname]
