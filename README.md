@@ -71,3 +71,5 @@ t.text
 //'Chess'
 t.date_added
 //datetime.datetime(2022, 5, 20, 3, 33, 36, 928759, tzinfo=datetime.timezone.utc)
+
+### Mapping a URL
