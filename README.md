@@ -55,3 +55,19 @@ python manage.py migrate (this modifies your changes after the 'makemigrations' 
 
 ### Creating a superuser
 python manage.py createsuperuser
+
+### Working with django shell
+To start the shell, begin with the command python manage.py shell
+example:
+from learning_logs.models import Topic
+Topic.objects.all()
+
+topics = Topic.objects.all()
+for topic in topics:
+    print(topic.id, topic)
+
+t = Topic.objects.get(id=1)
+t.text
+//'Chess'
+t.date_added
+//datetime.datetime(2022, 5, 20, 3, 33, 36, 928759, tzinfo=datetime.timezone.utc)
